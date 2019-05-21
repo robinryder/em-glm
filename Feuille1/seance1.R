@@ -88,6 +88,8 @@ summary(model3)
 # pour l'indicatrice que l'individu est un enfant (childTRUE). Tous ces paramètres sont
 # significativement différents de 0.
 
+
+# prédiction pour deux nouveaux individus
 xnew = data.frame(
   Pclass = c(1, 3),
   Name = c("Rose", "Jack"),
